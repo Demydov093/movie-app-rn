@@ -3,14 +3,6 @@ import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { StarIcon } from "react-native-heroicons/solid";
 
-interface Movie {
-  id: number;
-  title: string;
-  poster_path: string;
-  vote_average: number;
-  release_date: string;
-}
-
 const MovieCard = ({
   id,
   title,
